@@ -41,7 +41,7 @@ var airvantagemap = {
 	user: null,
 	initialize: function() {
 		forge.logging.log('Initializing...');
-		airvantagemap.url = "https://qa-branch.m2mop.net/api";
+		airvantagemap.url = "https://na.m2mop.net/api";
 		airvantagemap.initToken(function() {
 			state.set('home', new airvantagemap.views.Home());
 			state.get('home').render();
