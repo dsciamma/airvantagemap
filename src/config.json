@@ -1,0 +1,32 @@
+{
+	"author": "david.sciamma@gmail.com", 
+	"config_version": "2", 
+	"description": "AirVantage Map application", 
+	"modules": {
+		"contact": true, 
+		"file": true, 
+		"geolocation": true, 
+		"is": true, 
+		"logging": {
+			"level": "DEBUG"
+		}, 
+		"media": true, 
+		"package_names": {
+			"android": "net.airvantage.map", 
+			"ios": "net.airvantage.map"
+		}, 
+		"prefs": true, 
+		"reload": true, 
+		"request": {
+			"permissions": [
+			]
+		}, 
+		"tabbar": true, 
+        "tabs": true, 
+		"tools": true, 
+		"topbar": true
+	}, 
+	"name": "AirVantageMap", 
+	"platform_version": "v1.4", 
+	"version": "0.1"
+}

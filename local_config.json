@@ -1,0 +1,20 @@
+{
+	"general": {
+	},
+	"ios": {
+		"profiles": {
+			"DEFAULT": {
+				"provisioning_profile": ""
+			}
+		}
+	},
+	"android": {
+		"sdk": "C:/tools/adt-bundle-windows-x86_64/sdk",
+		"profiles": {
+			"DEFAULT": {
+				"keystore": "C:/Users/dsciamma/.android/debug.keystore",
+				"keyalias": "androiddebugkey"
+			}
+		}
+	}
+}

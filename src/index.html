@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AirVantage Map</title>
+	<script src="lib/jquery.min.js"></script>
+	<script src='lib/api-topbar.js'></script>
+	<script src="lib/underscore.js"></script>
+	<script src="lib/mustache.js"></script>
+	<script src="lib/backbone.js"></script>
+	<script src="lib/date.js"></script>
+	<script src="js/airvantagemap.js"></script>
+	<script src="js/models.js"></script>
+	<script src="js/router.js"></script>
+	<script src="js/views.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+</head>
+<body>
+	<div class="container" id="home_container"></div>
+	<div class="container" id="alerts_container"></div>
+	<div class="container" id="map_container"></div>
+	<script id="tmpl-notlogged" type="text/x-mustache-tmpl">
+		<div id="notlogged" class="step center listenactive">
+			<div class="label">You are not logged in. <br/>
+			Click to login.</div>
+		</div>
+	</script>
+	<script id="tmpl-logged" type="text/x-mustache-tmpl">
+		<div id="logged" class="step center listenactive">
+			<div class="label">You are logged as <br/>
+			{{user}}. <br/>
+			Click to logout.</div>
+		</div>
+	</script>
+	<script src="js/main.js"></script>
+</body>
+</html>

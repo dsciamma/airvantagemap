@@ -1,0 +1,1 @@
+airvantagemap.models.State = Backbone.Model.extend({});
